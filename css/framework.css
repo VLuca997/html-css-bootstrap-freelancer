@@ -122,6 +122,10 @@
     margin-left: calc((100% / 12) * 5);
 
 }
+.col-offset-5-r{
+    margin-right: calc((100% / 12) * 5);
+
+}
 .col-offset-6{
     margin-left: calc((100% / 12) * 6);
 
