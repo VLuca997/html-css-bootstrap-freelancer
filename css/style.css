@@ -1,22 +1,7 @@
-#s1{
-    
-
+.my-container{
+    margin: 0 auto;
+    width: 80%;
 }
-#s1 .box-s1 {
-    background-color: transparent;
-}
-#s1 .box-s1 img{
-    
-}
-.title, .divisore, .competenze{
-    text-align: center;
-}
-#s2 .box-2, #s3 .box-2{
-    border: 2px solid purple;
-    flex-wrap: wrap;
-    
-}
-#s2 .col-4, #s3 .col-6{
-    padding: .625rem;
-    
-}
+/* img{
+    width: 100%;
+} */
