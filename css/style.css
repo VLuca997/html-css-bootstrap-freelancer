@@ -5,3 +5,13 @@
 /* img{
     width: 100%;
 } */
+
+.fa-minus{
+    transform: scaleX(12.1);
+    padding: 5px;
+    margin: 0 80px;
+    border: none;
+}
+button{
+    color: white !important;
+}

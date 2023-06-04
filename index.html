@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
-    
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <!-- CSS -->
@@ -18,10 +19,10 @@
             <div class="container-md">
                 <a class="navbar-brand text-light" href="#"><h3 class="font-weight-bolder">START BOOTSTRAP</h3></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon text-light"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                    <ul class="navbar-nav ">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-light">
                         <li class="nav-item">
                         <a class="nav-link text-light" href="#">PORTFOLIO</a>
                         </li>
@@ -41,11 +42,15 @@
         <!-- SECTION 1 -->
         <section class="bg-success">
 
-            <div class="container-md py-5 text-center">
+            <div class="container-md py-5 text-center text-light">
                 <img class="img-fluid w-50 p-5 w-sm-100"  src="img/avatar.svg" alt="">
                 <h1 class="display-4 fw-semibold">START BOOTSTRAP</h1>
                 <br>
-                <p>------STAR------</p>
+                <p class="icon-f-a"> 
+                    <i class="fa-solid fa-minus "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-minus "></i>
+                </p>
                 <br>
                 <p>GRAPHIC ARTIST  -  WEB DESIGNER  -  ILLUSTRATOR</p>
             </div>
@@ -57,9 +62,13 @@
 
             <div class="container-md">
                 <div class="py-4  text-center">
-                    <h3 class="display-5 fw-semibold">PORTFOLIO</h2>
+                    <h3 class="display-5 fw-semibold">PORTFOLIO</h3>
                     <br>
-                    <h3>-------STAR-------</h3>
+                    <p class="icon-f-a"> 
+                        <i class="fa-solid fa-minus "></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-minus "></i>
+                    </p>
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 rounded-lg">
                     <div class="col-md-6 col-xl-4 mb-3">
@@ -110,28 +119,36 @@
         <!-- SECTION 2 -->
         <section class="bg-success py-5">
 
-            <div class="container-md">
-                <div class="my-container">
-                    <div class="py-4 bg-info text-center">
-                        TITOLO
+            <div class="container-md text-light">
+                <div class="w-75 mx-auto">
+                    <div class="py-1 text-center">
+                        <h3 class="display-5 fw-semibold">ABOUT</h3>
                         <br>
-                        BARRA
+                        <p class="icon-f-a"> 
+                            <i class="fa-solid fa-minus "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-minus "></i>
+                        </p>
                     </div>
                     <div class="row ">
                         <div class="col-md-6 mb-3">
-                            <div class="p-4 bg-warning text-center">
-                                CARD
+                            <div class="p-2 text-center">
+                                Freelancer is a free bootstrap theme created by Start Bootstrap.
+                                The download includes the complete souces files including HTML, CSS, and JavaScript
+                                as well as optional LESS stylesheets for easy customization.
                             </div>
 
                         </div>
                         <div class="col-md-6 mb-3">
-                            <div class="p-4 bg-warning text-center">
-                                CARD
+                            <div class="p-2 text-center">
+                                Whether you're a student looking to showcase your work, a professional looking
+                                to attract clients, or a graphic artist looking to share your projects,this templete
+                                is the perfect starting point!
                             </div>
                         </div>
                     </div>
                     <div class="text-center">
-                        DOWNLOAD
+                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
                     </div>
 
                 </div>
@@ -147,16 +164,28 @@
 
                 <div class="my-container">
 
-                    <div class="py-4 bg-info text-center">
+                    <div class="py-4 text-center">
 
-                        TITOLO
+                        <h3 class="display-5 fw-semibold">CONTACT ME</h3>
                         <br>
-                        BARRA
+                        <p class="icon-f-a"> 
+                            <i class="fa-solid fa-minus "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-minus "></i>
+                        </p>
 
                     </div>
 
-                    <div class="bg-primary p-4 ">
-                        FORM
+                    <div class="p-0  text-dark">
+                        <input class="form-control border-0 text-dark p-0" type="text-dark" placeholder="Name" aria-label="">
+                        <hr class="text-dark">
+                        <input class="form-control border-0 text-dark p-0" type="text-dark" placeholder="Email Address" aria-label="">
+                        <hr class="text-dark">
+                        <input class="form-control border-0 text-dark p-0" type="text-dark" placeholder="Phone Number" aria-label="">
+                        <hr class="text-dark">
+                        <textarea class="form-control border-0 text-dark p-0" rows="8" placeholder="Message" aria-label="default input example"></textarea>
+                        <hr class="text-dark">
+                        <button type="button" class="btn btn-success">Send</button>
                     </div>
 
                 </div>
@@ -174,18 +203,22 @@
 
             <div class="container-md">
 
-                <div class="row">
+                <div class="row mt-3">
 
                     <div class="col-md-4">
-                        LEFT
-
-                    </div>
-                    <div class="col-md-4">
-                        CENTER
+                        <h4>LOCATION</h4>
+                        <p>2215 jhon Daniel Drive Clark, MO 54243</p>
+                        
 
                     </div>
                     <div class="col-md-4">
-                        RIGHT
+                        <h4>AROUND THE WEB</h4>
+                        <span class="m-5"><i class="fa-brands fa-facebook"></i>  <i class="fa-brands fa-google-plus"></i>  <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-linkedin-in"></i></span>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h4>ABOUT FREELANCER</h4>
+                        <span>Freelance is a free to use, open souce bootstrap theme created by <a href="#">Start Bootstrap</a></span>
 
                     </div>
 
