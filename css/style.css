@@ -12,6 +12,23 @@
     margin: 0 80px;
     border: none;
 }
-button{
-    color: white !important;
+/*
+
+    BG-COLOR
+
+*/
+#s4{
+    background-color: #3a546d;
+}
+#s5{
+    background-color: #26303a;
+}
+#s2{
+    background-color: #1abc9c;
+}
+#s1{
+    background-color: #1abc9c;
+}
+#s0{
+    background-color: #2c3e50;
 }
